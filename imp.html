@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 48px;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        /* Content Section */
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 20px;
+        }
+        .content {
+            background-color: white;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            text-align: center;
+            font-size: 36px;
+            color: #2C3E50;
+        }
+
+        /* Table Layout */
+        table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 20px;
+            text-align: center;
+            vertical-align: top;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        td:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        td img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        td img:hover {
+            transform: scale(1.1);
+        }
+
+        td p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        td p b, td p i {
+            font-size: 18px;
+            color: #2C3E50;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Art Gallery</h1>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <h2>Featured Artworks</h2>
+            <table>
+                <tr>
+                    <td>
+                        <img src="download.jfif" alt="Madhubani Art">
+                        <p><b><i>Madhubani Art</i></b></p>
+                        <p><strong>Madhubani Art</strong> is a traditional Indian folk art from Bihar, known for intricate patterns, vibrant colors, and depictions of nature, deities, and Hindu mythology. It features detailed line work and the use of natural dyes.</p>
+                    </td>
+                    <td>
+                        <img src="download (1).jfif" alt="Mithila Art">
+                        <p><b><i>Mithila Art</i></b></p>
+                        <p><strong>Mithila Art</strong> is a traditional folk art form from the Mithila region of Bihar. Known for its vibrant colors and intricate patterns, it depicts mythology, nature, and daily life, often using natural dyes and pigments.</p>
+                    </td>
+                    <td>
+                        <img src="download (2).jfif" alt="Rajasthani Miniature Painting">
+                        <p><b><i>Rajasthani Miniature Painting</i></b></p>
+                        <p><strong>Rajasthani Miniature Painting</strong> is an intricate art form from Rajasthan, featuring vibrant depictions of royal life, battles, and religious themes. The paintings are known for their detailed brushwork, rich colors, and use of gold.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images.jfif" alt="Mata Ni Pachedi">
+                        <p><b><i>Mata Ni Pachedi</i></b></p>
+                        <p><strong>Mata Ni Pachedi</strong> is a traditional textile art from Gujarat, featuring various forms of the goddess Mata. This art form, often created on cloth, depicts intricate designs and symbols from Hindu mythology and is used for devotional purposes.</p>
+                    </td>
+                    <td>
+                        <img src="images (1).jfif" alt="Pichwai Painting">
+                        <p><b><i>Pichwai Painting</i></b></p>
+                        <p><strong>Pichwai Painting</strong> is a traditional art form from Rajasthan, depicting scenes from Lord Krishna’s life. These vibrant paintings are often created on cloth and adorn temples during festivals, showcasing Krishna's devotion to the cowherd community.</p>
+                    </td>
+                    <td>
+                        <img src="ano.jpg" alt="Warli Painting" width="200px">
+                        <p><b><i>Warli Painting</i></b></p>
+                        <p><strong>Warli Painting</strong> is a traditional tribal art from Maharashtra, using simple geometric shapes like circles and triangles to depict nature, animals, and daily life. The paintings are created with white pigment on mud walls, symbolizing harmony with nature and community life.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>Interactive Museum &copy; 2024</p>
+    </footer>
+</body>
+</html>
